@@ -1,0 +1,2 @@
+This is an empty file created for the purpose of the failedTestcase directory to be present in Git repository.
+Please ignore this file count as this is not considered as failed test case screenshot count.
