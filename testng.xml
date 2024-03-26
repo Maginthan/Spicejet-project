@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="3" name="ChromeTest">
+		<parameter name="browser" value="Chrome"></parameter>
+		<parameter name="url" value="https://www.spicejet.com/"></parameter>
+		<classes>
+			<class name="test.BrokenURLValidationTest"></class>
+			<class name="test.HomePageMiddleTitlesTest"></class>
+			<class name="test.OneWayTest"></class>
+			<class name="test.RoundTripTest"></class>
+			<class name="test.LoginTest"></class>
+			<class name="test.HomePageTopTitlesTest"></class>
+			<class name="test.SignInTestPositive"></class>
+			<class name="test.SignInTestNegative"></class>
+		</classes>
+	</test>
+	
+		<!--test thread-count="3" name=“SafariTest">
+		<parameter name="browser" value="Safari"></parameter>
+		<parameter name="url" value="https://www.spicejet.com/"></parameter>
+		<classes>
+			<class name="test.BrokenURLValidationTest"></class>
+			<class name="test.HomePageMiddleTitlesTest"></class>
+			<class name="test.OneWayTest"></class>
+			<class name="test.HomePageTopTitlesTest"></class>
+			<class name="test.RoundTripTest"></class>
+			<class name="test.LoginTest"></class>
+			<class name="test.SignInTestPositive"></class>
+			<class name="test.SignInTestNegative"></class>
+		</classes>
+	</test-->
+</suite> 
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="url" value="https://www.spicejet.com/"/>
+    <classes>
+      <class name="test.RoundTripTest">
+        <methods>
+          <include name="browserClose"/>
+          <include name="extentTestSetup"/>
+          <include name="browserLaunch"/>
+          <include name="createExtentTest"/>
+          <include name="TC_004_RoundTripTest"/>
+          <include name="generateExtentReports"/>
+          <include name="reportInitialisation"/>
+        </methods>
+      </class> <!-- test.RoundTripTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
