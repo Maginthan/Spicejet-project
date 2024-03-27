@@ -1,4 +1,7 @@
 # SpiceJet Automation project:
+
+<p align="Left"><img src="Images/SpiceJetLogo.jpg" alt="screenshot" width="400", height="200"></p>
+
 This project is meant for testing the major functionalities of SpiceJet web site. I have used Data-Driven testing for testing Sign In functionality with Data provider. Alos, this project covers the main features like One Way trip and Round trip scenarios as well.
 
 ## Motivation:
