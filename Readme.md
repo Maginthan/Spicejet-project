@@ -30,13 +30,13 @@ The reason behind creating this project is that automating this site is challeng
 - Step 7 : Run the project a testNG suite.
 
 ## Dependencies screenshot:
-<p align="Left"><img src="" alt="screenshot" width="600"></p>
+<p align="Left"><img src="Images/Dependencies.png" alt="screenshot" width="600"></p>
 
 ## POM file screenshot:
-<p align="Left"><img src="" alt="screenshot" width="400"></p>
+<p align="Left"><img src="Images/POM structure.png" alt="screenshot" width="400"></p>
 
 ## Maven surefire screenshot:
-<p align="Left"><img src="" alt="screenshot" width="600" height="300"></p>
+<p align="Left"><img src="Images/Surefire plugin.png" alt="screenshot" width="600" height="300"></p>
 
 ## Test case Code Example:
 - I have used constructor chaining here in order to access the methods of pages with single object creation.
@@ -54,10 +54,10 @@ The reason behind creating this project is that automating this site is challeng
 - Round trip scenario
 
 ## Login success test case screenshot:
-<p align="Left"><img src="" alt="screenshot" width="600"></p>
+<p align="Left"><img src="PassedTestCaseScreenshots/TC_005_LoginTest-Tue Mar 26 21:27:59 IST 2024.png" alt="screenshot" width="600"></p>
 
 ## Jenkins success build run screenshot:
-<p align="Left"><img src="" alt="screenshot" width="600"></p>
+<p align="Left"><img src="Test_Result_Screenshots/SpiceJet_Jenkins_buildReport.png" alt="screenshot" width="600"></p>
 
 
 
