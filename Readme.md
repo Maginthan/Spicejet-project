@@ -1,8 +1,8 @@
-# SpiceJet Automation project:
+# SpiceJet Site Automation project:
 
 <p align="Left"><img src="Images/SpiceJetLogo.jpg" alt="screenshot" width="400", height="200"></p>
 
-This project is meant for testing the major functionalities of SpiceJet web site. I have used Data-Driven testing for testing Sign In functionality with Data provider. Alos, this project covers the main features like One Way trip and Round trip scenarios as well.
+This project is meant for testing the major functionalities of SpiceJet web site. I have used Data-Driven testing for testing Sign In functionality with Data provider. Also, this project covers the main features like One Way trip and Round trip scenarios as well.
 
 ## Motivation:
 The reason behind creating this project is that automating this site is challenging and an interesting one, because of the Modern date picker and some web elements needs different approach for inspecting and handling web elements.
@@ -54,7 +54,7 @@ The reason behind creating this project is that automating this site is challeng
 - Login scenarios(Positive and Negative)
 - SignUp scenarios(Positive and Negative)
 - One Way trip scenario
-- Round trip scenario
+- Round trip scenario 
 
 ## Login success test case screenshot:
 <p align="Left"><img src="PassedTestCaseScreenshots/TC_005_LoginTest-Tue Mar 26 21:27:59 IST 2024.png" alt="screenshot" width="600"></p>
@@ -62,5 +62,6 @@ The reason behind creating this project is that automating this site is challeng
 ## Jenkins success build run screenshot:
 <p align="Left"><img src="Test_Result_Screenshots/SpiceJet_Jenkins_buildReport.png" alt="screenshot" width="600"></p>
 
-
+## People worked on this project
+```Maginthan```
 
