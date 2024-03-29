@@ -17,11 +17,12 @@ The reason behind creating this project is that automating this site is challeng
 ## Technology/Frameworks used:
 - TestNG framework - Used for various purposes like Data provider and the prioritization of tests and suites.
 - Extent reports library - Used for the detailed reporting the test cases status with various information like screenshots.
-- Maven project - For the ease of handling the dependencies in one place
-- Apache POI - For the reading and writing the data in  Excel sheet.
+- Maven project - For the ease of handling the dependencies in one place.
+- Selenium Java library - Selenium provides support for the automation of web browsers. It provides extensions to emulate user interaction with browsers, a distribution server for scaling browser allocation, and the infrastructure for implementations of the W3C WebDriver specification.
+- Apache POI library- For the reading and writing the data in Excel sheet.
 - Maven Surefire plugin- For the building a Maven build in order to use it for Jenkins CI/CD implementation for invoking the build by local host or remotely.
 - Jenkins tool - For triggering the build eventually executing the tasks locally or remotely.
-- WebDriver manager library - Used for handling web driver for various browsers like (Chrome, Firefox, Safari, Edge).
+- WebDriverManager library - Automated driver management and other helper features for Selenium WebDriver in Java.
 
 ## Steps to create project and adding dependencies:
 - Step 1 : Create a new project of type Maven in Eclipse IDE.
